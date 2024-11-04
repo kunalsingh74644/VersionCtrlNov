@@ -1,0 +1,1078 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Entity History ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Parent ID",
+      "name": "ParentId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "et4ae5__SendDefinition__c"
+      ],
+      "relationshipName": "Parent",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Changed Field",
+      "name": "Field",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AB Job Id",
+          "validFor": null,
+          "value": "et4ae5__abJobId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AB Test",
+          "validFor": null,
+          "value": "et4ae5__AB_Test__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AB Test Lookup",
+          "validFor": null,
+          "value": "et4ae5__ABTest__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AllSources",
+          "validFor": null,
+          "value": "et4ae5__AllSources__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Backup Workflow Date/Time",
+          "validFor": null,
+          "value": "et4ae5__BackupWorkflow__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business Unit",
+          "validFor": null,
+          "value": "et4ae5__Business_Unit__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business Unit saved",
+          "validFor": null,
+          "value": "et4ae5__Business_Unit_saved__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Campaign",
+          "validFor": null,
+          "value": "et4ae5__Campaign__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Campaigns",
+          "validFor": null,
+          "value": "et4ae5__Campaigns__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact",
+          "validFor": null,
+          "value": "et4ae5__Contact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Conversation Id",
+          "validFor": null,
+          "value": "et4ae5__ConversationId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Created.",
+          "validFor": null,
+          "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Custom Person Merged",
+          "validFor": null,
+          "value": "customPersonMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DataExtensionId",
+          "validFor": null,
+          "value": "et4ae5__DataExtensionId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Date Sent",
+          "validFor": null,
+          "value": "et4ae5__DateSent__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dedupe Subscribers",
+          "validFor": null,
+          "value": "et4ae5__DedupeSubscribers__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Asset Id",
+          "validFor": null,
+          "value": "et4ae5__EmailAssetId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Id",
+          "validFor": null,
+          "value": "et4ae5__EmailId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Name",
+          "validFor": null,
+          "value": "et4ae5__EmailName__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Send Number",
+          "validFor": null,
+          "value": "Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ExclusionCampaign",
+          "validFor": null,
+          "value": "et4ae5__ExclusionCampaign__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Exclusion Campaigns",
+          "validFor": null,
+          "value": "et4ae5__Exclusion_Campaigns__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Exclusion Lists",
+          "validFor": null,
+          "value": "et4ae5__ExclusionLists__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Exclusion Reports",
+          "validFor": null,
+          "value": "et4ae5__Exclusion_Reports__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Feed event",
+          "validFor": null,
+          "value": "feedEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "From Address",
+          "validFor": null,
+          "value": "et4ae5__FromAddress__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "From Email",
+          "validFor": null,
+          "value": "et4ae5__FromEmail__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "From Name",
+          "validFor": null,
+          "value": "et4ae5__FromName__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HasBeenQueued",
+          "validFor": null,
+          "value": "et4ae5__HasBeenQueued__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual Merged",
+          "validFor": null,
+          "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual Tracking Disabled",
+          "validFor": null,
+          "value": "et4ae5__Individual_Tracking_Disabled__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JobId",
+          "validFor": null,
+          "value": "et4ae5__JobId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JobStarted",
+          "validFor": null,
+          "value": "et4ae5__JobStarted__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "JobStatus",
+          "validFor": null,
+          "value": "et4ae5__JobStatus__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lead",
+          "validFor": null,
+          "value": "et4ae5__Lead__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MemberID",
+          "validFor": null,
+          "value": "et4ae5__MemberID__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messages",
+          "validFor": null,
+          "value": "et4ae5__Messages__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NotificationRecipients",
+          "validFor": null,
+          "value": "et4ae5__NotificationRecipients__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Notify Owner On Error",
+          "validFor": null,
+          "value": "et4ae5__Notify_Owner_On_Error__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Existing Undeliverables",
+          "validFor": null,
+          "value": "et4ae5__NumberofExistingUndeliverables__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Existing Unsubscribes",
+          "validFor": null,
+          "value": "et4ae5__NumberofExistingUnsubscribes__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Hard Bounces",
+          "validFor": null,
+          "value": "et4ae5__NumberofHardBounces__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Soft Bounces",
+          "validFor": null,
+          "value": "et4ae5__NumberofSoftBounces__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Subscribers Forwarding",
+          "validFor": null,
+          "value": "et4ae5__NumberofSubscribersForwardingEmail__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Total Clicks",
+          "validFor": null,
+          "value": "et4ae5__NumberofTotalClicks__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Total Opens",
+          "validFor": null,
+          "value": "et4ae5__NumberofTotalOpens__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Unique Clicks",
+          "validFor": null,
+          "value": "et4ae5__NumberofUniqueClicks__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number of Unique Opens",
+          "validFor": null,
+          "value": "et4ae5__NumberofUniqueOpens__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number Sent",
+          "validFor": null,
+          "value": "et4ae5__NumberSent__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Number Unsubscribed",
+          "validFor": null,
+          "value": "et4ae5__NumberUnsubscribed__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner",
+          "validFor": null,
+          "value": "Owner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Accepted)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Assignment)",
+          "validFor": null,
+          "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Recipients Opted In",
+          "validFor": null,
+          "value": "et4ae5__RecipientsOptedIn__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record locked.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record Type",
+          "validFor": null,
+          "value": "RecordType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record unlocked.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reply-to",
+          "validFor": null,
+          "value": "et4ae5__Reply_to__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report Id",
+          "validFor": null,
+          "value": "et4ae5__ReportId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Report Name",
+          "validFor": null,
+          "value": "et4ae5__ReportName__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reports",
+          "validFor": null,
+          "value": "et4ae5__Reports__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Retried",
+          "validFor": null,
+          "value": "et4ae5__HasEnteredRetry__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Date/Time",
+          "validFor": null,
+          "value": "et4ae5__Scheduled_Date_Time__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Send Automation",
+          "validFor": null,
+          "value": "et4ae5__Send_Automation_disp__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Send Automation Lookup",
+          "validFor": null,
+          "value": "et4ae5__SendAutomation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Send Classification Id",
+          "validFor": null,
+          "value": "et4ae5__SendClassificationId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "sendDef",
+          "validFor": null,
+          "value": "et4ae5__ETSendDef__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SenderProfileId",
+          "validFor": null,
+          "value": "et4ae5__SenderProfileId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Send Status",
+          "validFor": null,
+          "value": "et4ae5__SendStatus__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Send Time",
+          "validFor": null,
+          "value": "et4ae5__SendTime__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Split Send",
+          "validFor": null,
+          "value": "et4ae5__Split_Send__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status Date/Time",
+          "validFor": null,
+          "value": "et4ae5__Status_Date_Time__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "et4ae5__Subject__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SubjectBlob",
+          "validFor": null,
+          "value": "et4ae5__SubjectBlob__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject Line",
+          "validFor": null,
+          "value": "et4ae5__SubjectLine__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subscriber List Id",
+          "validFor": null,
+          "value": "et4ae5__SubscriberListId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subscriber List Name",
+          "validFor": null,
+          "value": "et4ae5__SubscriberListName__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SyncComplete",
+          "validFor": null,
+          "value": "et4ae5__SyncComplete__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SyncId",
+          "validFor": null,
+          "value": "et4ae5__SyncId__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Thumbnail",
+          "validFor": null,
+          "value": "et4ae5__Thumbnail__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tracking As Of",
+          "validFor": null,
+          "value": "et4ae5__Tracking_As_Of__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tracking Expiration Date",
+          "validFor": null,
+          "value": "et4ae5__Tracking_Expiration_Date__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TrackingLastRequested",
+          "validFor": null,
+          "value": "et4ae5__TrackingLastRequested__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TrackingOnly",
+          "validFor": null,
+          "value": "et4ae5__TrackingOnly__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Transactional",
+          "validFor": null,
+          "value": "et4ae5__Transactional__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TriggerDelayedSend",
+          "validFor": null,
+          "value": "et4ae5__TriggerDelayedSend__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User Enabled Business Unit",
+          "validFor": null,
+          "value": "et4ae5__UEBU__c"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Datatype",
+      "name": "DataType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Address"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AnyType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AutoNumber"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Base64"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "BitVector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Boolean"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Currency"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataCategoryGroupReference"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DateOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Division"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Double"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DynamicEnum"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EncryptedBase64"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EncryptedText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EntityId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EnumOrId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ExternalId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Fax"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "File"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "HtmlMultiLineText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "HtmlStringPlusClob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InetAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Json"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MultiEnum"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MultiLineText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Namespace"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Percent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PersonName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Raw"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RecordType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "SfdcEncryptedText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "SimpleNamespace"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "StringPlusClob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Switchable_PersonName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Text"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TimeOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Url"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "YearQuarter"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Old Value",
+      "name": "OldValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "New Value",
+      "name": "NewValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    }
+  ],
+  "label": "History: Email Send",
+  "childRelationships": [],
+  "custom": false,
+  "name": "et4ae5__SendDefinition__History",
+  "queryable": true
+}

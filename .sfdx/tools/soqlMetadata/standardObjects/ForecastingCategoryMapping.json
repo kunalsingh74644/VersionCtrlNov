@@ -1,0 +1,259 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Forecasting Category Mapping ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Source Category",
+      "name": "SourceCategory",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Omitted",
+          "validFor": null,
+          "value": "Omitted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pipeline",
+          "validFor": null,
+          "value": "Pipeline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Best Case",
+          "validFor": null,
+          "value": "Best Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Commit",
+          "validFor": null,
+          "value": "Commit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Closed",
+          "validFor": null,
+          "value": "Closed"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Forecasting Item Category",
+      "name": "ForecastingItemCategory",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "OmittedOnly",
+          "validFor": null,
+          "value": "OmittedOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "PipelineOnly",
+          "validFor": null,
+          "value": "PipelineOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BestCaseOnly",
+          "validFor": null,
+          "value": "BestCaseOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CommitOnly",
+          "validFor": null,
+          "value": "CommitOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Closed Only",
+          "validFor": null,
+          "value": "ClosedOnly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Open Pipeline",
+          "validFor": null,
+          "value": "OpenPipeline"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Best Case Forecast",
+          "validFor": null,
+          "value": "BestCaseForecast"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Commit Forecast",
+          "validFor": null,
+          "value": "CommitForecast"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    }
+  ],
+  "label": "Forecasting Category Mapping",
+  "childRelationships": [],
+  "custom": false,
+  "name": "ForecastingCategoryMapping",
+  "queryable": true
+}
